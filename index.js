@@ -7,7 +7,7 @@ require('dotenv').config()
 
 const PORT = process.env.PORT
 const CON_STR = process.env.CON_STR
-console.error('CON_STR=', CON_STR)
+
 let app = express()
 app.use(cors())
 app.use(express.json())
